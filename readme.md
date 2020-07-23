@@ -1,3 +1,28 @@
+# Installation
+**step 1:**
+
+Open your Terminal & run this command
+```git clone git@github.com:bongobd-task/problem-2-design-pattern.git```
+
+**step 2:**
+
+```cd ./your_dir/problem-1-anagram```
+
+**step 3** 
+
+```yarn install or npm install strong prefer yarn because it's setup with yarn```
+**step 4**
+
+Commands: prefix  ```yarn or npm run```
+
+```
+problem-2-a //run problem 2 of a ts file
+problem-2-b //run problem 2 of b ts file
+build-problem-2-a //run problem 2 of a after build
+build-problem-2-b //run problem 2 of b after build
+test //run test with jest
+```
+
 Question-2(a):
 ```
 interface Vehicle {
@@ -148,12 +173,6 @@ class Plane implements Vehicle{
     }
     
 }
-
-
-const car = new Car(4,8)
-const plane = new Plane(8,50)
-
-console.log(car,plane)
 
 ```
 
