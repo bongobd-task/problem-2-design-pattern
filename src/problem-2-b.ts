@@ -19,20 +19,20 @@ interface Vehicle{
 /**
  * @class Car
  * @implement Vehicle
- * @override
  * @method set_num_of_wheels():Int
  * @method set_num_of_passengers():Int 
  * @method has_gas():boolean 
  **/
+
 export class Car implements Vehicle{
     public wheel:Int;
     public passenger:Int; 
     public gas:boolean;
 
     constructor(wheel: Int,passenger: Int,gas=true){
-      this.wheel=wheel;
-      this.passenger=passenger;
-      this.gas=gas
+      this.wheel= wheel;
+      this.passenger = passenger;
+      this.gas = gas
     }
     set_num_of_wheels(): Int {
         return this.wheel
@@ -45,6 +45,7 @@ export class Car implements Vehicle{
     }
     
 }
+
 /**
  * @class Plane
  * @extends Car

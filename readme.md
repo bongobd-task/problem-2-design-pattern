@@ -11,15 +11,20 @@ Open your Terminal & run this command
 **step 3** 
 
 ```yarn install or npm install strong prefer yarn because it's setup with yarn```
+
 **step 4**
 
 Commands: prefix  ```yarn or npm run```
 
 ```
 problem-2-a //run problem 2 of a ts file
+
 problem-2-b //run problem 2 of b ts file
+
 build-problem-2-a //run problem 2 of a after build
+
 build-problem-2-b //run problem 2 of b after build
+
 test //run test with jest
 ```
 
@@ -42,6 +47,18 @@ In this Question has a interface & this interface contain three function and the
 ## 3. has_gas() return value boolean;
 
 if I want to implement Vehicle interface in Car class then it's implementing process like this:
+
+NOTE: Car class should have  this methods:
+
+```
+    set_num_of_wheels():Int
+
+    set_num_of_passengers():Int
+    
+    has_gas():boolean
+```
+
+
 
 ```
 type Int = number;
@@ -66,6 +83,16 @@ class Car implements Vehicle{
 }
 ```
 if I want to implement Vehicle interface in Plane class then it's implementing process like this:
+
+NOTE: Plane class should have  this methods:
+
+```
+    set_num_of_wheels():Int
+
+    set_num_of_passengers():Int
+    
+    has_gas():boolean
+```
 
 ```
 
